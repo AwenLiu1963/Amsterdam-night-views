@@ -4,25 +4,49 @@ body{
 	font-size: 18px;
 }
 
+/* header section decoration*/
+
 header{
-	margin: 50px;
+	margin:0;
+}
+
+#header-left{
+	width: 30%;
+	height: 200px;
+	position: absolute;
+	left: 0;
 }
 
 header img{
-	width: 15%;
+	width: 65%;
 	display: block;
 	margin: 0 auto;
+	position: relative;
+	top: 28%;
+}
+#header-middle{
+	width: 40%;
+	height: 200px;
+	position: absolute;
+	left: 30%;
+}
+
+#header-right{
+	width:30%;
+	height: 200px;
+	position: absolute;
+	left: 70%;
 }
 
 header button{
-	font-size: 1.1em;
+	font-size: 1em;
 	font-family: 'Playfair Display', serif;
-	background-color: deeppink;
-	padding: 10px 15px;
+	background-color: #ee0cc1;
+	padding: 8px 25px;
 	border: 2px solid grey;
-	position: absolute;
-	right: 200px;
-	top: 72px;
+	width: 50%;
+	display: block;
+	margin: 70px auto;
 }
 
 header button:hover{
@@ -34,7 +58,12 @@ button a{
 	color: white;
 }
 
+
+/* main section decoration */
+
 main{
+	position: relative;
+	top: 220px;
 	max-width: 1980px;
 }
 main img {
