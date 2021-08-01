@@ -12,28 +12,28 @@ header{
 
 #header-left{
 	width: 30%;
-	height: 200px;
+	height: 120px;
 	position: absolute;
 	left: 0;
 }
 
 header img{
-	width: 65%;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 	position: relative;
-	top: 28%;
+	top: 40%;
 }
 #header-middle{
 	width: 40%;
-	height: 200px;
+	height: 120px;
 	position: absolute;
 	left: 30%;
 }
 
 #header-right{
 	width:30%;
-	height: 200px;
+	height: 120px;
 	position: absolute;
 	left: 70%;
 }
@@ -41,12 +41,14 @@ header img{
 header button{
 	font-size: 1em;
 	font-family: 'Playfair Display', serif;
-	background-color: #ee0cc1;
+	background-color: #ee0cc1; /*purple pink*/
 	padding: 8px 25px;
-	border: 2px solid grey;
+	border: 1px solid grey;
 	width: 50%;
 	display: block;
-	margin: 70px auto;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
 }
 
 header button:hover{
@@ -63,9 +65,40 @@ button a{
 
 main{
 	position: relative;
-	top: 220px;
+	top: 120px;
 	max-width: 1980px;
 }
 main img {
 	width: 100%;
+}
+
+#greetings{
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	text-align: center;
+
+}
+
+#greetings h1{
+	color: dimgray;
+	font-size: 55px;
+	font-style: italic;
+	margin-bottom: 0;
+	letter-spacing: 2px;
+	
+}
+
+#greetings p{
+	color: #c29f59; /*gold color*/
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+main h2{
+	color: #c29f59;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+
 }
