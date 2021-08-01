@@ -118,9 +118,10 @@ main h2{
 	width: 100%;
 	height: 650px;
 	margin-left: 9.25%;
+	position: relative;
 }
 
-#service-repeater div {
+#service-repeater div{
 	width: 20%;
 	height: 600px;
 	margin-top: 25px;
@@ -129,16 +130,22 @@ main h2{
 	background-color: #e4e3d4;
 }
 
-#service-repeater h3, #service-repeater p,#service-repeater ul,{
+#service-repeater h3, #service-repeater p,#service-repeater ul{
 	margin: 60px 40px;
 }
 
-#service-repeater h3,{
+#service-repeater h3{
 	text-align: center;
 }
 
 #service-repeater button{
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 400px;
+	color: white;
+	background-color: #c29f59;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	bottom: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
