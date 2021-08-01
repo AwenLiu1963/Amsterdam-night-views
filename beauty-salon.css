@@ -95,10 +95,32 @@ main img {
 	margin-top: 10px;
 }
 
+.section-headings{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section-headings img{
+	width: 5%;
+	display: inline;
+}
+
 main h2{
 	color: #c29f59;
 	font-size: 40px;
-	text-align: center;
 	letter-spacing: 3px;
+	display: inline;
+	white-space: nowrap;
+}
 
+#service-repeater{
+	width: 80%;
+	background-color: lightblue;
+}
+
+#service-repeater div {
+	width: 25%;
+	float: left;
+	position: absolute;
+	background-color: lightblue;
 }
