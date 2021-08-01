@@ -1,9 +1,37 @@
 body{
 	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+}
+
+header{
+	margin: 50px;
 }
 
 header img{
-	width: 200px;
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+}
+
+header button{
+	font-size: 1.1em;
+	font-family: 'Playfair Display', serif;
+	background-color: deeppink;
+	padding: 10px 15px;
+	border: 2px solid grey;
+	position: absolute;
+	right: 200px;
+	top: 72px;
+}
+
+header button:hover{
+	background-color: goldenrod;
+}
+
+button a{
+	text-decoration: none;
+	color: white;
 }
 
 main{
