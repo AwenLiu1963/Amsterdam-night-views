@@ -201,11 +201,14 @@ main h2{
 	font-weight: bold;
 }
 
-.price-table tbody tr td{
+.price-table td{
 	padding: 5px;
 	margin-left: 60px;
 }
 
+.price-table tbody tr:hover{
+	background-color: white;
+}
 /*footer section*/
 .footer{
 	background-color: #e4e3d4;
