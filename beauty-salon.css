@@ -39,9 +39,10 @@ header img{
 }
 
 header button,.appointment-btn{
+	color: white;
 	font-size: 1em;
 	font-family: 'Playfair Display', serif;
-	background-color: #ee0cc1; /*purple pink*/
+	background-color: magenta; /*purple pink*/
 	padding: 8px 25px;
 	border: 1px solid grey;
 	width: 50%;
@@ -51,13 +52,14 @@ header button,.appointment-btn{
 	top: 50%;
 }
 
-header button,.appointment-btn:hover{
+header button:hover{
 	background-color: goldenrod;
 }
 
 button a{
 	text-decoration: none;
 	color: white;
+	
 }
 
 
@@ -68,6 +70,7 @@ main{
 	position: relative;
 	top: 120px;
 	max-width: 1980px;
+	margin-bottom: 200px;
 }
 main img {
 	width: 100%;
@@ -171,3 +174,45 @@ main h2{
 }
 
 /* Price list section decoration */
+
+.appointment-btn{
+	width: 15%;
+}
+
+.appointment-btn:hover{
+	background-color: #c29f59;
+}
+
+.price-table{
+	border-collapse: collapse;
+	width: 30%;
+	margin: 50px 35%;
+	font-size: 0.9em;
+	min-width: 400px;
+	background-color: LavenderBlush;
+	position: relative;
+}
+
+.price-table thead tr{
+	background-color: #c29f59;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.price-table tbody tr td{
+	padding: 5px;
+	margin-left: 60px;
+}
+
+/*footer section*/
+.footer{
+	background-color: #e4e3d4;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer img{
+	width: 20%;
+}
